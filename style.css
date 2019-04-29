@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/videoblocks-cartoon-blackboard-in-a-children-classroom-with-a-school-bus_rp7t1bnse_thumbnail-full01.png) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    box-sizing: border-box;
+    background-color:#40aee3;
+    box-shadow: 5px 10px  20px #383838;
+    
+}
+
+.numberContainer{
+    position: relative;
+    top: 78px;
+}
+
+.topNumber{
+}
+
+.singleDigit{
+    position: relative;
+    left: 20px;
+}
+
+.bottomNumber{
+
+}
+
+.plusSign{
+    position: relative;
+    right: 30%;
+
+}
+
+.bottomLine{
+    width: 75%;
+}
+
+.outPut{
+    font-size: 2rem;
+}
