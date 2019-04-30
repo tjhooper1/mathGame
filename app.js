@@ -10,6 +10,8 @@ const topNumberContainer = document.querySelector('.topNumber');
 const bottomNumber = document.getElementById("bNumber");
 const bottomNumberContainer = document.querySelector('.bottomNumber')
 const answer = document.getElementById("answer");
+const output = document.querySelector('.output');
+const playerAnswer = document.querySelector('.playerAnswer');
 
 topNumber.innerHTML = firstNumber;
 bottomNumber.innerHTML = secondNumber;
@@ -21,4 +23,8 @@ if (firstNumber < 10) {
 }
 if (secondNumber < 10) {
     bottomNumberContainer.classList.add('singleDigit');
+}
+
+function play(){
+    
 }

@@ -50,3 +50,22 @@ body{
 .outPut{
     font-size: 2rem;
 }
+
+.buttonContainer{
+    margin-right: 60%;
+    margin-bottom: 2%;
+}
+
+.button{
+    border: 1px solid #70ff88;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #70ff88;
+    color: white;
+    transition: .1s ease;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #c4fdcd;
+}
