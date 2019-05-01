@@ -25,16 +25,10 @@ body{
     top: 78px;
 }
 
-.topNumber{
-}
 
 .singleDigit{
     position: relative;
     left: 20px;
-}
-
-.bottomNumber{
-
 }
 
 .plusSign{
